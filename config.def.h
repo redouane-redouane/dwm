@@ -84,16 +84,16 @@ static Key keys[] = {
 	{ MODKEY,                       46,    setmfact,       {.f = +0.05} },          // l
 	{ MODKEY|ShiftMask,             36,    zoom,           {0} },                   // Return
 	{ MODKEY,                       23,    view,           {0} },                   // Tab
-        { MODKEY|ShiftMask,             44,    aspectresize,   {.i = +24} },            // j
-        { MODKEY|ShiftMask,             45,    aspectresize,   {.i = -24} },            // k
-        { MODKEY|ShiftMask,             113,   aspectresize,   {.i = +24} },            // Left
-        { MODKEY|ShiftMask,             114,   aspectresize,   {.i = -24} },            // Right
+    { MODKEY|ShiftMask,             44,    aspectresize,   {.i = +24} },            // j
+    { MODKEY|ShiftMask,             45,    aspectresize,   {.i = -24} },            // k
+    { MODKEY|ShiftMask,             113,   aspectresize,   {.i = +24} },            // Left
+    { MODKEY|ShiftMask,             114,   aspectresize,   {.i = -24} },            // Right
 	{ MODKEY,                       54,    killclient,     {0} },                   // c
 	{ MODKEY,                       28,    setlayout,      {.v = &layouts[0]} },    // t
 	{ MODKEY,                       41,    setlayout,      {.v = &layouts[1]} },    // f
 	{ MODKEY,                       47,    setlayout,      {.v = &layouts[2]} },    // m
-        { MODKEY|ControlMask,           59,    cyclelayout,    {.i = -1 } },            // comma
-        { MODKEY|ControlMask,           60,    cyclelayout,    {.i = +1 } },            // period
+    { MODKEY|ControlMask,           59,    cyclelayout,    {.i = -1 } },            // comma
+    { MODKEY|ControlMask,           60,    cyclelayout,    {.i = +1 } },            // period
 	{ MODKEY,                       65,    setlayout,      {0} },                   // space
 	{ MODKEY|ShiftMask,             65,    togglefloating, {0} },                   // space
 	{ MODKEY,                       19,    view,           {.ui = ~0 } },           // 0
@@ -114,10 +114,10 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             38,    quit,           {0} },                   // q
 	{ MODKEY|ControlMask|ShiftMask, 38,    quit,           {1} },                   // q
 
-        { MODKEY,                       53,    spawn,          {.v = screenlock} },     // x
+    { MODKEY,                       53,    spawn,          {.v = screenlock} },     // x
 
-        { MODKEY|ShiftMask,             39,    spawn,          {.v = reboot} },         // s
-        { MODKEY,                       39,    spawn,          {.v = shutdown} },       // s
+    { MODKEY|ShiftMask,             39,    spawn,          {.v = reboot} },         // s
+    { MODKEY,                       39,    spawn,          {.v = shutdown} },       // s
 };
 
 /* button definitions */
