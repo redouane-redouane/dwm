@@ -63,9 +63,9 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", NULL };
 static const char *browser[]  = { "brave", NULL };
 static const char *filemgr[]  = { "nemo", NULL };
-static const char *screenlock[]  = { "i3lock", "-i", "/home/redouane/Pictures/white_lion_cub-1366x768.png" };
-static const char *shutdown[]  = { "sh", "-c", "/home/redouane/Scripts/shutdown.sh" };
-static const char *reboot[]  = { "sh", "-c", "/home/redouane/Scripts/reboot.sh" };
+static const char *screenlock[]  = { "i3lock", "-i", "white_lion_cub-1366x768.png" };
+static const char *shutdown[]  = { "sh", "-c", "scripts/shutdown.sh" };
+static const char *reboot[]  = { "sh", "-c", "scripts/reboot.sh" };
 
 static Key keys[] = {
 	/* modifier                     key    function        argument */
