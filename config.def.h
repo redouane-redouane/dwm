@@ -65,7 +65,7 @@ static const char *browser[]  = { "brave", NULL };
 static const char *filemgr[]  = { "nemo", NULL };
 static const char *screenlock[]  = { "i3lock", "-i", "/home/redouane/Github/dwm/white_lion_cub-1366x768.png" };
 static const char *shutdown[]  = { "sh", "-c", "/home/redouane/Github/dwm/scripts/shutdown.sh" };
-static const char *reboot[]  = { "sh", "-c", "scripts/reboot.sh" };
+static const char *reboot[]  = { "sh", "-c", "/home/redouane/Github/dwm/scripts/reboot.sh" };
 
 static Key keys[] = {
 	/* modifier                     key    function        argument */
