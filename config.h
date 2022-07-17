@@ -63,8 +63,8 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", NULL };
 static const char *browser[]  = { "brave", NULL };
 static const char *filemgr[]  = { "nemo", NULL };
-static const char *screenlock[]  = { "i3lock", "-i", "/home/redouane/Github/dwm/white_lion_cub-1366x768.png" };
-static const char *shutdown[]  = { "sh", "-c", "/home/redouane/Github/dwm/scripts/shutdown.sh" };
+static const char *screenlock[]  = { "i3lock", "-i", "./white_lion_cub-1366x768.png" };
+static const char *shutdown[]  = { "sh", "-c", "scripts/shutdown.sh" };
 static const char *reboot[]  = { "sh", "-c", "scripts/reboot.sh" };
 
 static Key keys[] = {
@@ -115,6 +115,7 @@ static Key keys[] = {
 	{ MODKEY|ControlMask|ShiftMask, 38,    quit,           {1} },                   // q
 
     { MODKEY,                       53,    spawn,          {.v = screenlock} },     // x
+
     { MODKEY|ShiftMask,             39,    spawn,          {.v = reboot} },         // s
     { MODKEY,                       39,    spawn,          {.v = shutdown} },       // s
 };
